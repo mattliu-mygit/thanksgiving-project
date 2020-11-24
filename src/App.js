@@ -32,7 +32,7 @@ function App() {
           top: 0,
           marginTop: '1rem',
           fontSize: '5rem',
-          fontFamily: 'monospace',
+          fontFamily: 'Apple Chancery, cursive',
         }}
       >
         Happy Thanksgiving!
