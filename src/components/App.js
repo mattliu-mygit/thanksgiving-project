@@ -9,11 +9,20 @@ import cornucop from '../img/Cornucop1.png';
 import leaves from '../img/leaves.png';
 import banner from '../img/banner.png';
 import turkey2 from '../img/turkey2.gif';
+import turkey3 from '../img/turkey3.gif';
 import CenterImage from './CenterImage';
 
 function App() {
   const [index, setIndex] = useState(0);
-  const images = [turkey1, cursed1, cursed2, cursed3, turkey2, cannibalism];
+  const images = [
+    turkey1,
+    cursed1,
+    cursed2,
+    cursed3,
+    turkey2,
+    turkey3,
+    cannibalism,
+  ];
   const [droppedImages, setDroppedImages] = useState([]);
 
   const handleClick = () => {
