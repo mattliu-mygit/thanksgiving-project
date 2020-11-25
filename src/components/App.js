@@ -3,14 +3,17 @@ import './App.css';
 import turkey1 from '../img/turkey1.gif';
 import cursed1 from '../img/cursed1.gif';
 import cursed2 from '../img/cursed2.gif';
+import cursed3 from '../img/cursed3.gif';
+import cannibalism from '../img/cannibalism.gif';
 import cornucop from '../img/Cornucop1.png';
 import leaves from '../img/leaves.png';
 import banner from '../img/banner.png';
+import turkey2 from '../img/turkey2.gif';
 import CenterImage from './CenterImage';
 
 function App() {
   const [index, setIndex] = useState(0);
-  const images = [turkey1, cursed1, cursed2];
+  const images = [turkey1, cursed1, cursed2, cursed3, turkey2, cannibalism];
   const [droppedImages, setDroppedImages] = useState([]);
 
   const handleClick = () => {
