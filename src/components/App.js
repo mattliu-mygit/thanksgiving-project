@@ -10,6 +10,8 @@ import leaves from '../img/leaves.png';
 import banner from '../img/banner.png';
 import turkey2 from '../img/turkey2.gif';
 import turkey3 from '../img/turkey3.gif';
+import turkey4 from '../img/turkey4.gif';
+import pusheen from '../img/pusheen.gif';
 import CenterImage from './CenterImage';
 
 function App() {
@@ -20,8 +22,10 @@ function App() {
     cursed2,
     cursed3,
     turkey2,
+    turkey4,
     turkey3,
     cannibalism,
+    pusheen,
   ];
   const [droppedImages, setDroppedImages] = useState([]);
 
