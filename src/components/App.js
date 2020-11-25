@@ -66,18 +66,6 @@ function App() {
           CLICK ME!!!
         </b>
       ) : null}
-      {/* {
-        //console.log('returning ', droppedImages);
-        droppedImages.forEach((image) => (
-          <div style={{ position: 'absolute' }}>
-            <CenterImage
-              image={image}
-              dropping={true}
-              deleteImage={deleteImage}
-            />
-          </div>
-        ))
-      } */}
       <button className="center-image centerButt" onClick={handleClick}>
         <CenterImage
           image={images[index]}
